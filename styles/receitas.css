@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  background-color: #FFC107;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#img-banner {
+  padding: 15px 0 15px 0;
+}
+
+nav {
+  display: flex;
+  background-color: #FFA000;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 7px 30px 7px 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.12em;
+  font-weight: 700;
+  color: #FFA000;
+  margin: 104px 0 69px 123px;
+}
+
+.grid {
+  display: grid;
+  margin: 0 80px 128px 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 116px;
+  column-gap: 83px;
+}
+
+.recipe-card {
+  text-align: center;
+  /* margin: 0 42px 0 42px; */
+}
+
+.recipe-card img {
+  width: 21.56em;
+  height: 21em;
+  margin-bottom: 7px;
+}
+
+.recipe-card p {
+  padding: 7px;
+  font-size: 1.62em;
+  font-weight: 600;
+}
+
+button {
+  background-color: #176902;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+  padding: 10px 43px;
+  margin-top: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  background-color: #FFC107;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-left: 38px; 
+}

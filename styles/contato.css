@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  background-color: #FFC107;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#img-banner {
+  padding: 15px 0 15px 0;
+}
+
+nav {
+  display: flex;
+  background-color: #FFA000;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 7px 30px 7px 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#banner {
+  background: url(../img-omma/banner_2.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+#banner p {
+  margin-left: 122px;
+  padding-top: 90px;
+  font-size: 4.37em;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#form img {
+  margin: 102px 0 133px 127px;
+}
+
+form {
+  border: solid 1px #FFC107;
+  border-radius: 20px;
+  width: 820px;
+  margin: 102px 128px 133px 15px;
+}
+
+h1 {
+  color: #FFC107;
+  margin: 64px 0 67px 33px;
+  font-family: 'Ubuntu', sans-serif;;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+#name, #email, #message {
+  border: solid 1px #FFC107;
+  border-radius: 7px;
+  padding: 10px 33px;
+  margin: 0 33px 23px 37.5px;
+}
+
+#btn {
+  border: none;
+  border-radius: 50px;
+  margin: 0 33px 23px 37.5px;
+  font-family: 'Nunito', sans-serif;;
+  font-size: 1em;
+  padding: 15px 60px;
+  background-color: #FFC107;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  background-color: #FFC107;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-left: 38px; 
+}
